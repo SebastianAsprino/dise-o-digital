@@ -1,0 +1,18 @@
+-- Archivo: funcion_logic.vhdl
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity FuncionLogica is
+    Port (
+        A : in STD_LOGIC;
+        B : in STD_LOGIC;
+        C : in STD_LOGIC;
+        F : out STD_LOGIC
+    );
+end FuncionLogica;
+
+architecture Behavioral of FuncionLogica is
+begin
+    -- Implementación de la función C' + AB
+    F <= (not C) or (A and B);
+end Behavioral;
