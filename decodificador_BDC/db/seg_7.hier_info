@@ -1,0 +1,34 @@
+|seg_7
+A => fa.IN1
+A => ff.IN1
+A => fg.IN1
+B => fa.IN0
+B => fc.IN1
+B => fd.IN0
+B => ff.IN0
+B => fa.IN0
+B => fa.IN0
+B => fb.IN1
+C => fa.IN1
+C => fb.IN0
+C => fd.IN0
+C => fb.IN0
+C => fc.IN0
+C => fd.IN1
+D => fa.IN1
+D => fb.IN1
+D => fc.IN1
+D => fd.IN1
+D => fa.IN1
+D => fb.IN1
+D => fd.IN1
+D => ff.IN1
+fa << fa.DB_MAX_OUTPUT_PORT_TYPE
+fb << fb.DB_MAX_OUTPUT_PORT_TYPE
+fc << fc.DB_MAX_OUTPUT_PORT_TYPE
+fd << fd.DB_MAX_OUTPUT_PORT_TYPE
+fe << fd.DB_MAX_OUTPUT_PORT_TYPE
+ff << ff.DB_MAX_OUTPUT_PORT_TYPE
+fg << fg.DB_MAX_OUTPUT_PORT_TYPE
+
+
