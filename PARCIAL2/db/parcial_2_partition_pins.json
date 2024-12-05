@@ -1,0 +1,153 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "salida1",
+					"strict" : false
+				},
+				{
+					"name" : "salida2",
+					"strict" : false
+				},
+				{
+					"name" : "salida3",
+					"strict" : false
+				},
+				{
+					"name" : "salida4",
+					"strict" : false
+				},
+				{
+					"name" : "salida5",
+					"strict" : false
+				},
+				{
+					"name" : "salida6",
+					"strict" : false
+				},
+				{
+					"name" : "salida7",
+					"strict" : false
+				},
+				{
+					"name" : "salida8",
+					"strict" : false
+				},
+				{
+					"name" : "SNR",
+					"strict" : false
+				},
+				{
+					"name" : "SNV",
+					"strict" : false
+				},
+				{
+					"name" : "SSR",
+					"strict" : false
+				},
+				{
+					"name" : "SSV",
+					"strict" : false
+				},
+				{
+					"name" : "SER",
+					"strict" : false
+				},
+				{
+					"name" : "SEV",
+					"strict" : false
+				},
+				{
+					"name" : "SOR",
+					"strict" : false
+				},
+				{
+					"name" : "SOV",
+					"strict" : false
+				},
+				{
+					"name" : "segments_ABCD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_ABCD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_ABCD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_ABCD[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_ABCD[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_ABCD[6]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_EFGH[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_EFGH[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_EFGH[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_EFGH[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_EFGH[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segments_EFGH[6]",
+					"strict" : false
+				},
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "D",
+					"strict" : false
+				},
+				{
+					"name" : "E",
+					"strict" : false
+				},
+				{
+					"name" : "F",
+					"strict" : false
+				},
+				{
+					"name" : "G",
+					"strict" : false
+				},
+				{
+					"name" : "H",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

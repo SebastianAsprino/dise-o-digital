@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Nov 14 11:27:34 2024
+Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+Revision Name : PARCIAL3
+Top-level Entity Name : PARCIAL3
+Family : Cyclone IV E
+Total logic elements : 118
+    Total combinational functions : 118
+    Dedicated logic registers : 31
+Total registers : 31
+Total pins : 67
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

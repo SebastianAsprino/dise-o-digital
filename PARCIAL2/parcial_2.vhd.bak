@@ -1,0 +1,74 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity comparator is
+    Port ( A : in STD_LOGIC;
+           B : in STD_LOGIC;
+           C : in STD_LOGIC;
+           D : in STD_LOGIC;
+           E : in STD_LOGIC;
+           F : in STD_LOGIC;
+           G : in STD_LOGIC;
+           H : in STD_LOGIC;
+           X : out STD_LOGIC);
+end comparator;
+
+architecture Behavioral of comparator is
+begin
+    X <= ((not A and not B and not C and not D and H) or
+          (not A and not B and not C and not D and G) or
+          (not A and not B and not C and G and H) or
+          (not A and not B and not D and G and H) or
+          (not A and not C and not D and G and H) or
+          (not B and not C and not D and G and H) or
+          (not A and not B and not C and not D and F) or
+          (not A and not B and not C and F and H) or
+          (not A and not B and not D and F and H) or
+          (not A and not C and not D and F and H) or
+          (not B and not C and not D and F and H) or
+          (not A and not B and not C and F and G) or
+          (not A and not B and not D and F and G) or
+          (not A and not C and not D and F and G) or
+          (not B and not C and not D and F and G) or
+          (not A and not B and F and G and H) or
+          (not A and not C and F and G and H) or
+          (not A and not D and F and G and H) or
+          (not B and not C and F and G and H) or
+          (not B and not D and F and G and H) or
+          (not C and not D and F and G and H) or
+          (not A and not B and not C and not D and E) or
+          (not A and not B and not C and E and H) or
+          (not A and not B and not D and E and H) or
+          (not A and not C and not D and E and H) or
+          (not B and not C and not D and E and H) or
+          (not A and not B and not C and E and G) or
+          (not A and not B and not D and E and G) or
+          (not A and not C and not D and E and G) or
+          (not B and not C and not D and E and G) or
+          (not A and not B and E and G and H) or
+          (not A and not C and E and G and H) or
+          (not A and not D and E and G and H) or
+          (not B and not C and E and G and H) or
+          (not B and not D and E and G and H) or
+          (not C and not D and E and G and H) or
+          (not A and not B and not C and E and F) or
+          (not A and not B and not D and E and F) or
+          (not A and not C and not D and E and F) or
+          (not B and not C and not D and E and F) or
+          (not A and not B and E and F and H) or
+          (not A and not C and E and F and H) or
+          (not A and not D and E and F and H) or
+          (not B and not C and E and F and H) or
+          (not B and not D and E and F and H) or
+          (not C and not D and E and F and H) or
+          (not A and not B and E and F and G) or
+          (not A and not C and E and F and G) or
+          (not A and not D and E and F and G) or
+          (not B and not C and E and F and G) or
+          (not B and not D and E and F and G) or
+          (not C and not D and E and F and G) or
+          (A and E and F and G and H) or
+          (B and E and F and G and H) or
+          (C and E and F and G and H) or
+          (D and E and F and G and H));
+end Behavioral;

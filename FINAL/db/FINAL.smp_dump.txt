@@ -1,0 +1,8 @@
+
+State Machine - |FINAL|estado_actual
+Name estado_actual.ESTADO5 estado_actual.ESTADO4 estado_actual.ESTADO3 estado_actual.ESTADO2 estado_actual.ESTADO1 
+estado_actual.ESTADO1 0 0 0 0 0 
+estado_actual.ESTADO2 0 0 0 1 1 
+estado_actual.ESTADO3 0 0 1 0 1 
+estado_actual.ESTADO4 0 1 0 0 1 
+estado_actual.ESTADO5 1 0 0 0 1 
